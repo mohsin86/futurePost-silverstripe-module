@@ -33,8 +33,6 @@ Add this two method in page.php file in your theme
                             }
                         }
                     }
-
-
                 }
             }
         }
