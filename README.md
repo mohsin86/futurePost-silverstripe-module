@@ -1,4 +1,4 @@
-# future Post silverstripe module
+# Future Post silverstripe module
 A silverstripe module for controlling which content should show or not to show by selected date.
 
 #########
