@@ -80,3 +80,9 @@ Add this two method in page.php file in your theme
     }
     
 ```
+
+### Feature
+
+ - Admin Can select date for future publishing
+ - Admin Can view all the content while logged in, future post functionality will disable for admin, since admin need to see all post while writing content
+ - Post will not be shown for Normal user which date is set 
