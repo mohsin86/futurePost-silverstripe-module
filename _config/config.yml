@@ -1,0 +1,6 @@
+Page:
+  extensions:
+    - FuturePublishDate
+Page_Controller:
+  extensions:
+    - FuturePublishDateController
