@@ -1,12 +1,16 @@
-# futurePost silverstripe module
+# future Post silverstripe module
 A silverstripe module for controlling which content should publish in future
 
 
-###
+#########
 Add this two method in page.php file in your theme
 
 ```
-   public function canView($member = null)
+    /*
+     * For controlling parent post or Menu
+     * @return all parent post
+     */
+    public function canView($member = null)
     {
 
         $result = SiteTree::get();
@@ -41,6 +45,10 @@ Add this two method in page.php file in your theme
 
     }
 
+    /*
+     * For controlling all children post
+     * @retun all Children
+     */
     public function AllChildren(){
         $allChildren = parent::AllChildren();
         $now = strtotime('now');
@@ -71,4 +79,5 @@ Add this two method in page.php file in your theme
             return $allChildren;
         }
     }
+    
 ```
