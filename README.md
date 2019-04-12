@@ -1,6 +1,5 @@
 # future Post silverstripe module
-A silverstripe module for controlling which content should publish in future
-
+A silverstripe module for controlling which content should show or not to show by selected date.
 
 #########
 Add this two method in page.php file in your theme
