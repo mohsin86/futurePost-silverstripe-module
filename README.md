@@ -1,13 +1,13 @@
 # Future Post silverstripe module
 A silverstripe module for controlling which content should show or not to show by selected date.
 
-##version
+# version
 
 Try this for sliverstripe 3<version<4
 
 
 
-##Install
+# Install
 Add this two method in page.php file in your theme
 
 ```
@@ -85,7 +85,7 @@ Add this two method in page.php file in your theme
     
 ```
 
-### Feature
+# Feature
 
  - Admin Can select date for future publishing
  - Admin Can view all the content while logged in, future post functionality will disable for admin, since admin need to see all post while writing content
